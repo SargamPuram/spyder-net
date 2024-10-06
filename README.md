@@ -41,11 +41,4 @@ note this list will be archived after the complition of the project.
 5. If one node is OUT the whole connection is down.
 6. Cheap Routers does not have QUIS functionality and doesn't have Per User Bandwidth control capabilities.
 
-### Contributors
-* Advait Pandharpurkar (Leader)
-* Asrarooj Ansari (Deputy)
-* Himanshu Shrivastava
-* Indrawadhan Yelwande
-* Supriya Kumari
-* Deepika Patil
 
