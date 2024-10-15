@@ -18,7 +18,7 @@ note this list will be archived after the complition of the project.
 * [X] Writing functinality for LED's based on the status of program
 * [X] Final testing on BreadBoard
 * [X] Assembly with soldering of the product
-* [ ] Publishing this shit.
+
 
 ### Components
 * EPS-32 
