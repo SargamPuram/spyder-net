@@ -16,7 +16,7 @@ void setup() {
   lcd.begin();
   lcd.backlight(); // Turn on the backlight
   lcd.setCursor(0, 0); // Set cursor to the first row
-  lcd.print("Devices connected : "+currentUsers); // Display a message on the LCD
+  lcd.print("Devices : "+currentUsers); // Display a message on the LCD
   
   WiFi.softAP(ssid, password);
   //This above statement initializes the WIFI 
@@ -41,7 +41,7 @@ void loop(){
       // Update the LCD display with the current user information
     lcd.clear(); // Clear the LCD
     lcd.setCursor(0, 0); // Set cursor to the first row
-    lcd.print("Devices connected: " + String(currentUsers)); // Show the number of devices
+    lcd.print("Devices : " + String(currentUsers)); // Show the number of devices
 
     while (client.connected()){
     delay(1); // Allow some time for the client to process the response
@@ -49,7 +49,7 @@ void loop(){
       // When the client disconnects, clean up
     if(client.stop()){
        currentUsers--;
-       lcd.print("Devices connected : "+currentUsers); // Display a message on the LCD
+       lcd.print("Devices : "+currentUsers); // Display a message on the LCD
 
     }
     
