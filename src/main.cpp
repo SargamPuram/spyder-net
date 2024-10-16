@@ -10,6 +10,7 @@ const char* password = "123456789"; // This str is the password that will be use
 AsyncWiFiServer server(80); // just to setup the server but aint nobody gonna use webinterface anyways
 int totalBandwidth = 100; // Total available bandwidth (in some units, e.g., Mbps)
 int currentUsers = 0; // To track the number of connected users
+LiquidCrystal_I2C lcd(0x27, 16, 1);
 
 
 void setup() {
