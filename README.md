@@ -27,6 +27,17 @@ note this list will be archived after the complition of the project.
 * LED's
 * Soldering and circuit wiring common components
 
+## Libraries Used
+To run this project, you'll need to install the following libraries:
+
+1. **WiFi.h** (ESP32's built-in WiFi library)
+   - Documentation: [WiFi library for ESP32](https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi)
+2. **ESPAsyncWebServer**
+   - Installation: [ESPAsyncWebServer GitHub](https://github.com/me-no-dev/ESPAsyncWebServer)
+3. **LiquidCrystal_I2C** (for I2C communication with the LCD)
+   - Installation: [LiquidCrystal_I2C GitHub](https://github.com/johnrickman/LiquidCrystal_I2C)
+
+
 ### How this device functions
 * ESP-32 Wifi Module checks for Number of devices that needs wifi in area
 * Users will connect to a Basic node of the Room 
