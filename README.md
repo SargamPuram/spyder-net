@@ -52,4 +52,9 @@ To run this project, you'll need to install the following libraries:
 5. If one node is OUT the whole connection is down.
 6. Cheap Routers does not have QUIS functionality and doesn't have Per User Bandwidth control capabilities.
 
+### Future Improvements
+Add support for setting bandwidth limits for individual clients.
+Implement a web interface for monitoring and managing the router.
+Extend the project to include traffic monitoring and logging.
+
 
